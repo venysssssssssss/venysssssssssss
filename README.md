@@ -17,7 +17,7 @@
     <a href="https://www.rust-lang.org" target="_blank" rel="noreferrer">
       <img src="https://static-00.iconduck.com/assets.00/rust-icon-2048x2048-x341msji.png" alt="rust" width="40" height="40"/>
     </a>
-    <a href="https://www.kindpng.com/imgv/hThiwTm_postgresql-logo-png-transparent-png/" target="_blank">Postgresql Logo Png, Transparent Png @kindpng.com</a>
+    <a href="https://www.kindpng.com/imgv/hThiwTm_postgresql-logo-png-transparent-png/" target="_blank">
       <img src="https://www.kindpng.com/picc/m/394-3944547_postgresql-logo-png-transparent-png.png" alt="postgree" width="40" height="40"/>
     </a>
   </p>
