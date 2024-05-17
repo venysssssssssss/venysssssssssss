@@ -20,6 +20,11 @@
     <a href="https://www.kindpng.com/imgv/hThiwTm_postgresql-logo-png-transparent-png/" target="_blank">
       <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/postgresql_plain_wordmark_logo_icon_146390.png" alt="postgree" width="40" height="40"/>
     </a>
+    <a href="https://www.kindpng.com/imgv/hThiwTm_postgresql-logo-png-transparent-png/" target="_blank">
+      <img src="https://cdn.icon-icons.com/icons2/2415/PNG/96/docker_original_wordmark_logo_icon_146557.png" alt="postgree" width="40" height="40"/>
+    </a>
+
+    
   </p>
 </div>
 
