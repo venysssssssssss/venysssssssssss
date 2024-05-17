@@ -18,7 +18,7 @@
       <img src="https://static-00.iconduck.com/assets.00/rust-icon-2048x2048-x341msji.png" alt="rust" width="40" height="40"/>
     </a>
     <a href="https://www.kindpng.com/imgv/hThiwTm_postgresql-logo-png-transparent-png/" target="_blank">
-      <img src="https://www.kindpng.com/picc/m/394-3944547_postgresql-logo-png-transparent-png.png" alt="postgree" width="40" height="40"/>
+      <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/postgresql_original_wordmark_logo_icon_146392.png" alt="postgree" width="40" height="40"/>
     </a>
   </p>
 </div>
