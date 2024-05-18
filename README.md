@@ -1,6 +1,9 @@
 <div align="center">
-  <img height="200" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExenE3bW5lZG1xNWI3aDZnd2xtdXY2bTI1bDAxc2xtcjVxYmVtYmhhdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LHZyixOnHwDDy/giphy.gif"  />
+  <video height="200" autoplay loop muted playsinline>
+    <source src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExenE3bW5lZG1xNWI3aDZnd2xtdXY2bTI1bDAxc2xtcjVxYmVtYmhhdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LHZyixOnHwDDy/giphy.mp4" type="video/mp4">
+  </video>
 </div>
+
 
 <div>
   <h3 align="center">Hi ;)</h3>
