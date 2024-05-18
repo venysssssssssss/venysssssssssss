@@ -5,6 +5,9 @@
     <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=venysssssssssss&layout=compact&langs_count=7&theme=dracula"/>
   </a>
 </div>
+<div align="right">
+  <img height="200" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExenE3bW5lZG1xNWI3aDZnd2xtdXY2bTI1bDAxc2xtcjVxYmVtYmhhdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LHZyixOnHwDDy/giphy.gif"  />
+</div>
 
 <div style="display: inline_block"><br>
   <p align="left">
@@ -37,11 +40,6 @@
   <a href="https://www.linkedin.com/in/vin%C3%ADcius-gon%C3%A7alves-reis-4544a921a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BeOlF79HGQICtD6MUyPINQQ%3D%3D" target="_blank">
     <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"/>
 </div>
-<div align="right">
-  <img height="200" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExenE3bW5lZG1xNWI3aDZnd2xtdXY2bTI1bDAxc2xtcjVxYmVtYmhhdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LHZyixOnHwDDy/giphy.gif"  />
-</div>
-
-###
 
 
 <img src="https://raw.githubusercontent.com/venysssssssssss/venysssssssssss/output/snake.svg" alt="Snake animation" /> 
