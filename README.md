@@ -4,9 +4,6 @@
     <img height="180em" src="https://github-readme-stats.vercel.app/api?username=venysssssssssss&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
     <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=venysssssssssss&layout=compact&langs_count=7&theme=dracula"/>
   </a>
-  <div align="right">
-  <img height="200" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExenE3bW5lZG1xNWI3aDZnd2xtdXY2bTI1bDAxc2xtcjVxYmVtYmhhdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LHZyixOnHwDDy/giphy.gif"  />
-</div>
 </div>
 
 <div style="display: inline_block"><br>
