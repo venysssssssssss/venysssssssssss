@@ -1,6 +1,4 @@
-## #30NitesOfCode:
-  [Check out my progress!](https://www.codedex.io/@viniciussp59740/30-nites-of-code)  
-  ![@viniciussp59740 #30NitesOfCode](https://www.codedex.io/api/petStatus?user=viniciussp59740)
+
 <div align="center">
   <img height="220" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExenE3bW5lZG1xNWI3aDZnd2xtdXY2bTI1bDAxc2xtcjVxYmVtYmhhdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LHZyixOnHwDDy/giphy.gif"  />
 </div>
