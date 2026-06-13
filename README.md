@@ -1,67 +1,163 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=7C3AED" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=7C3AED" width="100%"/>
 
-<br><br>
+<br/>
 
-# VINÍCIUS REIS
-**`BACKEND`** &nbsp;•&nbsp; **`DATA SYSTEMS`** &nbsp;•&nbsp; **`AUTOMATION`** &nbsp;•&nbsp; **`APPLIED AI`**
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=13&duration=2800&pause=1200&color=7C3AED&center=true&vCenter=true&width=480&lines=clarity+%3E+cleverness;architecture+%3E+patchwork;systems+that+outlast+the+sprint" alt="Philosophy" />
 
-<br>
+<br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=flat-square&logo=linkedin&logoColor=7C3AED)](https://www.linkedin.com/in/vinícius-gonçalves-reis-4544a921a)
-[![GitHub](https://img.shields.io/badge/GitHub-000000?style=flat-square&logo=github&logoColor=7C3AED)](https://github.com/venysssssssssss)
-[![Email](https://img.shields.io/badge/Email-000000?style=flat-square&logo=gmail&logoColor=7C3AED)](mailto:viniciussport2004@gmail.com)
-[![Signal](https://komarev.com/ghpvc/?username=venysssssssssss&style=flat-square&color=000000&labelColor=000000&label=signal&logo=activity&logoColor=7C3AED)](https://github.com/venysssssssssss)
+# Vinícius Reis
 
-<br>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&duration=3000&pause=1000&color=94A3B8&center=true&vCenter=true&width=600&lines=System+architecture+for+real+operations.;Turning+fragile+workflows+into+auditable+software.;Clarity+%3E+Cleverness.+Architecture+%3E+Patchwork." alt="Engineering Philosophy" />
-
-<br><br>
+<p>
+  <a href="https://www.linkedin.com/in/vinícius-gonçalves-reis-4544a921a">
+    <img src="https://img.shields.io/badge/LinkedIn-0a0a0a?style=flat-square&logo=linkedin&logoColor=7C3AED"/>
+  </a>
+  &nbsp;
+  <a href="https://github.com/venysssssssssss">
+    <img src="https://img.shields.io/badge/GitHub-0a0a0a?style=flat-square&logo=github&logoColor=7C3AED"/>
+  </a>
+  &nbsp;
+  <a href="mailto:viniciussport2004@gmail.com">
+    <img src="https://img.shields.io/badge/Email-0a0a0a?style=flat-square&logo=gmail&logoColor=7C3AED"/>
+  </a>
+  &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=venysssssssssss&style=flat-square&color=7C3AED&labelColor=0a0a0a&label=profile+views"/>
+</p>
 
 </div>
 
-## ⬢ Engineering Surface
+<br/>
 
-Em vez de listas exaustivas, minha atuação é dividida em quatro pilares de infraestrutura, focados em estabilidade, rastreabilidade e escala.
+```
+Backend · Data Systems · Automation · Applied AI
+```
 
-> **`01` Backend Systems**
-> Desenho e implementação de interfaces orientadas à produção. APIs resilientes, service layers, processamento assíncrono (runners), control planes e contratos estritos de validação utilizando **FastAPI** e **Rust**.
+> I turn fragile manual workflows into **auditable, observable software**.  
+> APIs with strict contracts. Pipelines with lineage. Automation with receipts.
 
-> **`02` Data Infrastructure**
-> Engenharia de pipelines analíticos limpos. Modelagem SQL, orquestração com **dbt**, processamento escalável com **DuckDB** e **PostgreSQL**, além de validação rigorosa de schemas e regras de qualidade de dados.
+<br/>
 
-> **`03` Applied AI & Search**
-> Infraestrutura para inteligência artificial sem fricção. Arquiteturas **RAG**, processamento de documentos, busca vetorial avançada com **Qdrant** e orquestração de LLMs locais/serviços de knowledge-base.
+---
 
-> **`04` Operational Automation**
-> Substituição de rotinas frágeis por software auditável. Motores de extração em **Python**, ingestão via SFTP, fluxos integrados (SAP, ClickUp, Grafana) e batch jobs via **Bash/PowerShell**.
+## Surface
 
-<br>
+My work is organized around four load-bearing pillars — not feature lists, but operational scopes where I take full-stack ownership.
 
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&height=1&color=1E293B" width="60%"/>
-</div>
+<br/>
 
-<br>
+**`Backend Systems`**
+Production-grade interfaces built for operators, not demos. Resilient APIs, async task runners, service-layer separation, and strict validation contracts. Primary stack: **FastAPI**, **Rust**.
 
-## ⬢ Architecture DNA
+**`Data Infrastructure`**
+Clean analytical pipelines from raw to decision-ready. SQL modeling, schema enforcement, incremental ingestion, and quality gates — built on **dbt**, **DuckDB**, **PostgreSQL**.
 
-O fluxo tático de como estruturo a transição de operações brutas para sistemas de decisão:
+**`Applied AI & Search`**
+Friction-free AI infrastructure: **RAG** architectures, document processing pipelines, advanced vector search with **Qdrant**, and orchestration of local LLMs and knowledge-base services.
+
+**`Operational Automation`**
+Replace brittle routines with auditable software. Python extraction engines, SFTP ingestion, SAP/ClickUp/Grafana integrations, scheduled batch jobs via **Bash** and **PowerShell**.
+
+<br/>
+
+---
+
+## Architecture Flow
+
+How raw operations become decision-ready systems:
 
 ```mermaid
+%%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#7C3AED', 'primaryTextColor': '#E2E8F0', 'primaryBorderColor': '#4C1D95', 'lineColor': '#475569', 'secondaryColor': '#1E293B', 'tertiaryColor': '#0F172A', 'background': '#0F172A', 'mainBkg': '#1E293B', 'nodeBorder': '#7C3AED', 'clusterBkg': '#1E293B', 'titleColor': '#A78BFA', 'edgeLabelBackground': '#1E293B', 'attributeBackgroundColorEven': '#1E293B', 'attributeBackgroundColorOdd': '#0F172A'}}}%%
 graph LR
-    %% Minimalist Theme Configurations
-    classDef core fill:transparent,stroke:#7C3AED,stroke-width:1px,color:#A78BFA
-    classDef node fill:transparent,stroke:#334155,stroke-width:1px,color:#94A3B8
-    classDef final fill:#7C3AED,stroke:none,color:#ffffff,font-weight:bold
-    
-    A[Raw Ops]:::node -->|ETL / dbt| B(Data Layer):::core
-    D[Documents]:::node -->|Embeddings| E(Vector Store):::core
-    
-    B --> C{FastAPI Core}:::node
-    E -->|RAG| C
-    
-    C -->|Automated Actions| F[Batch/Workers]:::node
-    C -->|API/Insights| G[Decision Output]:::final
+    classDef source  fill:#0F172A,stroke:#334155,stroke-width:1px,color:#94A3B8
+    classDef layer   fill:#1E293B,stroke:#7C3AED,stroke-width:1px,color:#A78BFA
+    classDef core    fill:#1E293B,stroke:#7C3AED,stroke-width:2px,color:#C4B5FD
+    classDef output  fill:#4C1D95,stroke:#7C3AED,stroke-width:1px,color:#EDE9FE,font-weight:bold
+
+    A[Raw Ops]:::source    -->|ETL / dbt|      B(Data Layer):::layer
+    D[Documents]:::source  -->|Embeddings|     E(Vector Store):::layer
+    B                      -->                 C{FastAPI Core}:::core
+    E                      -->|RAG|            C
+    C                      -->|Workers|        F[Batch Jobs]:::output
+    C                      -->|REST / Events|  G[Decision Output]:::output
+```
+
+<br/>
+
+---
+
+## Stack
+
+<table>
+<tr>
+<td valign="top" width="25%">
+
+**Languages**
+```
+Python
+Rust
+SQL
+Bash / PS
+```
+
+</td>
+<td valign="top" width="25%">
+
+**Data**
+```
+PostgreSQL
+DuckDB
+dbt
+Qdrant
+```
+
+</td>
+<td valign="top" width="25%">
+
+**Backend**
+```
+FastAPI
+Celery
+Redis
+Docker
+```
+
+</td>
+<td valign="top" width="25%">
+
+**Tooling**
+```
+SAP GUI
+SFTP / FTP
+Grafana
+ClickUp API
+```
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+---
+
+## Stats
+
+<div align="center">
+
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=venysssssssssss&show_icons=true&theme=transparent&hide_border=true&title_color=7C3AED&icon_color=7C3AED&text_color=94A3B8&bg_color=0D1117&ring_color=7C3AED&hide=stars" />
+&nbsp;&nbsp;
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=venysssssssssss&layout=compact&theme=transparent&hide_border=true&title_color=7C3AED&text_color=94A3B8&bg_color=0D1117&langs_count=6" />
+
+</div>
+
+<br/>
+
+---
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=7C3AED" width="100%"/>
+<br/>
+<sub><code>Build systems that outlast the engineer who wrote them.</code></sub>
+</div>
