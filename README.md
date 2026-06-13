@@ -1,4 +1,3 @@
-````md
 <p align="center">
   <img
     src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:020617,45:111827,100:7C3AED&text=Vin%C3%ADcius%20Reis&fontColor=F8FAFC&fontSize=56&fontAlignY=38&desc=Backend%20Engineering%20%7C%20Data%20Systems%20%7C%20Automation%20%7C%20AI%20Infrastructure&descSize=16&descAlignY=58&animation=fadeIn"
@@ -176,4 +175,3 @@ delivery      > noise
     alt="Footer"
   />
 </p>
-````
