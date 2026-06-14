@@ -1,0 +1,50 @@
+name: profile-telemetry
+
+# Self-generating profile asset: recomputes assets/status.svg from live
+# GitHub data on a schedule and on demand, then commits if it changed.
+
+on:
+  schedule:
+    - cron: "0 6 * * *"        # daily, 06:00 UTC
+  workflow_dispatch:            # manual run button
+  push:
+    branches: [main]
+    paths:
+      - "scripts/generate_status.py"
+      - ".github/workflows/status.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-telemetry
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Render status.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: ${{ github.repository_owner }}
+          STATUS_OUT: assets/status.svg
+        run: python scripts/generate_status.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [[ -n "$(git status --porcelain assets/status.svg)" ]]; then
+            git add assets/status.svg
+            git commit -m "chore: refresh profile telemetry [skip ci]"
+            git push
+          else
+            echo "no changes"
+          fi
