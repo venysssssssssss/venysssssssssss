@@ -2,8 +2,9 @@
 
 <img src="./assets/terminal.svg" width="92%" alt="venys@tekhnai terminal session"/>
 
-<br/>
-<br/>
+</div>
+
+<div align="center">
 
 # Vinícius Reis
 
@@ -36,8 +37,6 @@
 > I turn fragile manual workflows into **auditable, observable software**.  
 > APIs with strict contracts. Pipelines with lineage. Automation with receipts.
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=7C3AED" width="100%"/>
-
 ## Surface
 
 Four load-bearing pillars — operational scopes where I take full-stack ownership.
@@ -50,16 +49,14 @@ Four load-bearing pillars — operational scopes where I take full-stack ownersh
 
 **`Operational Automation`** — Brittle routines replaced by auditable software. Extraction engines, SFTP ingestion, SAP/ClickUp/Grafana integrations, scheduled jobs via **Bash** and **PowerShell**.
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=22D3EE" width="100%"/>
-
-## Architecture Flow
+## Architecture
 
 <div align="center">
 <img src="./assets/pipeline.svg" width="100%" alt="data pipeline"/>
 </div>
 
 <details>
-<summary><b>↳ precise topology</b> &nbsp;<sub>(click to expand the wiring)</sub></summary>
+<summary><b>↳ precise topology</b> &nbsp;<sub>(the wiring, expanded)</sub></summary>
 <br/>
 
 ```mermaid
@@ -86,8 +83,6 @@ graph LR
 ```
 
 </details>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=7C3AED" width="100%"/>
 
 ## Stack
 
@@ -151,19 +146,13 @@ graph LR
 </div>
 </details>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=22D3EE" width="100%"/>
+## Signal
 
-## Stats
+<sub>This panel is <b>self-generated</b> — a GitHub Action recomputes it daily from my live repo data. The profile is itself a pipeline.</sub>
 
 <div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=venysssssssssss&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&hide=stars&title_color=7C3AED&icon_color=22D3EE&text_color=94A3B8&bg_color=0D1117&ring_color=7C3AED" alt="stats"/>
-&nbsp;
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=venysssssssssss&layout=compact&hide_border=true&langs_count=8&title_color=22D3EE&text_color=94A3B8&bg_color=0D1117" alt="top languages"/>
-
+<img src="./assets/status.svg" width="100%" alt="live profile telemetry"/>
 </div>
-
-<br/>
 
 <details>
 <summary><b>$ neofetch</b> &nbsp;<sub>(system specs)</sub></summary>
