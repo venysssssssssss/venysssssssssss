@@ -1,10 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=7C3AED" width="100%"/>
-
-<br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&duration=2800&pause=1100&color=7C3AED&center=true&vCenter=true&width=520&lines=clarity+%3E+cleverness;architecture+%3E+patchwork;systems+that+outlast+the+sprint;APIs+with+contracts.+pipelines+with+lineage." alt="Philosophy" />
+<img src="./assets/pipeline.svg" width="100%" alt="data pipeline"/>
 
 <br/>
 <br/>
@@ -29,6 +25,9 @@
 
 <sub><code>Backend</code> &nbsp;·&nbsp; <code>Data Systems</code> &nbsp;·&nbsp; <code>Automation</code> &nbsp;·&nbsp; <code>Applied AI</code></sub>
 
+<br/>
+<sub><i>clarity > cleverness &nbsp;·&nbsp; architecture > patchwork &nbsp;·&nbsp; systems that outlast the sprint</i></sub>
+
 </div>
 
 <br/>
@@ -36,56 +35,48 @@
 > I turn fragile manual workflows into **auditable, observable software**.  
 > APIs with strict contracts. Pipelines with lineage. Automation with receipts.
 
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=22D3EE" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=7C3AED" width="100%"/>
 
 ## Surface
 
-My work is organized around four load-bearing pillars — not feature lists, but operational scopes where I take full-stack ownership.
+Four load-bearing pillars — operational scopes where I take full-stack ownership.
 
-<br/>
+**`Backend Systems`** — Production interfaces built for operators, not demos. Resilient APIs, async task runners, service-layer separation, strict validation contracts. **FastAPI**, **Rust**.
 
-**`Backend Systems`**
-Production-grade interfaces built for operators, not demos. Resilient APIs, async task runners, service-layer separation, and strict validation contracts. Primary stack: **FastAPI**, **Rust**.
+**`Data Infrastructure`** — Clean analytical pipelines from raw to decision-ready. SQL modeling, schema enforcement, incremental ingestion, quality gates. **dbt**, **DuckDB**, **PostgreSQL**.
 
-**`Data Infrastructure`**
-Clean analytical pipelines from raw to decision-ready. SQL modeling, schema enforcement, incremental ingestion, and quality gates — built on **dbt**, **DuckDB**, **PostgreSQL**.
+**`Applied AI & Search`** — Friction-free AI infrastructure: **RAG** architectures, document pipelines, vector search with **Qdrant**, local LLM orchestration.
 
-**`Applied AI & Search`**
-Friction-free AI infrastructure: **RAG** architectures, document processing pipelines, advanced vector search with **Qdrant**, and orchestration of local LLMs and knowledge-base services.
+**`Operational Automation`** — Brittle routines replaced by auditable software. Extraction engines, SFTP ingestion, SAP/ClickUp/Grafana integrations, scheduled jobs via **Bash** and **PowerShell**.
 
-**`Operational Automation`**
-Replace brittle routines with auditable software. Python extraction engines, SFTP ingestion, SAP/ClickUp/Grafana integrations, scheduled batch jobs via **Bash** and **PowerShell**.
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=7C3AED" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=22D3EE" width="100%"/>
 
 ## Architecture Flow
 
-How raw operations become decision-ready systems:
-
 ```mermaid
-%%{init: {'theme': 'dark', 'themeVariables': { 'fontFamily': 'JetBrains Mono, monospace', 'lineColor': '#475569', 'edgeLabelBackground': '#0F172A' }}}%%
+%%{init: {'theme':'dark','themeVariables':{'fontFamily':'monospace','lineColor':'#475569','edgeLabelBackground':'#1E293B'}}}%%
 graph LR
-    classDef source  fill:#0F172A,stroke:#334155,stroke-width:1px,color:#94A3B8
-    classDef layer   fill:#1E293B,stroke:#7C3AED,stroke-width:1px,color:#C4B5FD
-    classDef ai      fill:#1E293B,stroke:#22D3EE,stroke-width:1px,color:#67E8F9
-    classDef core    fill:#1E293B,stroke:#7C3AED,stroke-width:2px,color:#C4B5FD
-    classDef output  fill:#4C1D95,stroke:#7C3AED,stroke-width:1px,color:#EDE9FE
+    A[Raw Ops] -->|ETL| B(Data Layer)
+    D[Documents] -->|embeddings| E(Vector Store)
+    B --> C{FastAPI Core}
+    E -->|RAG| C
+    C -->|workers| F[Batch Jobs]
+    C -->|events| G[Decision Output]
 
-    A[Raw Ops]:::source    -->|ETL / dbt|      B(Data Layer):::layer
-    D[Documents]:::source  -->|Embeddings|     E(Vector Store):::ai
-    B                      -->                 C{FastAPI Core}:::core
-    E                      -->|RAG|            C
-    C                      -->|Workers|        F[Batch Jobs]:::output
-    C                      -->|REST / Events|  G[Decision Output]:::output
+    classDef source fill:#0F172A,stroke:#334155,color:#94A3B8
+    classDef layer fill:#1E293B,stroke:#7C3AED,color:#C4B5FD
+    classDef ai fill:#1E293B,stroke:#22D3EE,color:#67E8F9
+    classDef core fill:#1E293B,stroke:#7C3AED,stroke-width:2px,color:#C4B5FD
+    classDef output fill:#4C1D95,stroke:#7C3AED,color:#EDE9FE
+
+    class A,D source
+    class B layer
+    class E ai
+    class C core
+    class F,G output
 ```
 
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=22D3EE" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=7C3AED" width="100%"/>
 
 ## Stack
 
@@ -137,7 +128,7 @@ graph LR
 <br/>
 <img src="https://img.shields.io/badge/SAP_GUI-0D1117?style=flat-square&logo=sap&logoColor=22D3EE"/>
 &nbsp;
-<img src="https://img.shields.io/badge/SFTP_/_FTP-0D1117?style=flat-square&logo=files&logoColor=22D3EE"/>
+<img src="https://img.shields.io/badge/SFTP_/_FTP-0D1117?style=flat-square&logoColor=22D3EE"/>
 &nbsp;
 <img src="https://img.shields.io/badge/Grafana-0D1117?style=flat-square&logo=grafana&logoColor=22D3EE"/>
 &nbsp;
@@ -146,38 +137,20 @@ graph LR
 <br/>
 </div>
 
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=7C3AED" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=22D3EE" width="100%"/>
 
 ## Stats
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=venysssssssssss&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&hide=stars&title_color=7C3AED&icon_color=22D3EE&text_color=94A3B8&bg_color=0D1117&ring_color=7C3AED" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=venysssssssssss&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&hide=stars&title_color=7C3AED&icon_color=22D3EE&text_color=94A3B8&bg_color=0D1117&ring_color=7C3AED" />
 &nbsp;
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=venysssssssssss&layout=compact&hide_border=true&langs_count=8&title_color=22D3EE&text_color=94A3B8&bg_color=0D1117" />
-
-<br/>
-<br/>
-
-<img height="170" src="https://streak-stats.demolab.com?user=venysssssssssss&hide_border=true&background=0D1117&stroke=1E293B&ring=7C3AED&fire=22D3EE&currStreakLabel=A78BFA&currStreakNum=E2E8F0&sideNums=E2E8F0&sideLabels=94A3B8&dates=64748B" />
-
-<br/>
-<br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=venysssssssssss&bg_color=0D1117&color=A78BFA&line=7C3AED&point=22D3EE&area=true&area_color=7C3AED&hide_border=true&custom_title=Contribution%20Signal" width="98%" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=venysssssssssss&layout=compact&hide_border=true&langs_count=8&title_color=22D3EE&text_color=94A3B8&bg_color=0D1117" />
 
 </div>
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=22D3EE" width="100%"/>
-
 <div align="center">
-<br/>
 <sub><code>Build systems that outlast the engineer who wrote them.</code></sub>
-<br/>
-<br/>
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=7C3AED" width="100%"/>
 </div>
