@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 314" role="img" aria-label="Stack monitor: domain load bars">
+  <defs>
+    <clipPath id="b1"><rect x="150" y="70" width="0" height="20"><animate attributeName="width" from="0" to="476" begin="0.4s" dur="1.0s" fill="freeze"/></rect></clipPath>
+    <clipPath id="b2"><rect x="150" y="124" width="0" height="20"><animate attributeName="width" from="0" to="442" begin="0.7s" dur="1.0s" fill="freeze"/></rect></clipPath>
+    <clipPath id="b3"><rect x="150" y="178" width="0" height="20"><animate attributeName="width" from="0" to="374" begin="1.0s" dur="1.0s" fill="freeze"/></rect></clipPath>
+    <clipPath id="b4"><rect x="150" y="232" width="0" height="20"><animate attributeName="width" from="0" to="408" begin="1.3s" dur="1.0s" fill="freeze"/></rect></clipPath>
+  </defs>
+
+  <rect x="1" y="1" width="758" height="312" rx="12" fill="#0D1117" stroke="#1E293B"/>
+
+  <!-- title bar -->
+  <rect x="1" y="1" width="758" height="34" rx="12" fill="#0F172A"/>
+  <rect x="1" y="22" width="758" height="13" fill="#0F172A"/>
+  <text x="24" y="22" font-family="ui-monospace, SFMono-Regular, monospace" font-size="12" fill="#475569" letter-spacing="1">stack-monitor · load by domain</text>
+  <circle cx="724" cy="18" r="3" fill="#22D3EE"><animate attributeName="opacity" values="1;0.2;1" dur="1.6s" repeatCount="indefinite"/></circle>
+  <text x="736" y="22" font-family="ui-monospace, monospace" font-size="11" fill="#475569" text-anchor="end" transform="translate(-18,0)">live</text>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace">
+    <!-- ROW 1 backend -->
+    <text x="24" y="84" font-size="14" fill="#C4B5FD">backend</text>
+    <text x="24" y="100" font-size="10" fill="#475569">fastapi · rust</text>
+    <rect x="150" y="70" width="476" height="20" rx="3" fill="#161E2E"/>
+    <g clip-path="url(#b1)">
+      <rect x="150" y="70" width="476" height="20" rx="3" fill="#2A1E54"/>
+      <rect x="150" y="70" width="476" height="20" rx="3" fill="url(#g1)"/>
+    </g>
+    <rect x="150" y="70" width="476" height="20" rx="3" fill="none" stroke="#7C3AED" stroke-width="1" opacity="0.4"/>
+    <text x="700" y="84" font-size="13" fill="#A78BFA" text-anchor="end">70%</text>
+
+    <!-- ROW 2 data -->
+    <text x="24" y="138" font-size="14" fill="#67E8F9">data-infra</text>
+    <text x="24" y="154" font-size="10" fill="#475569">dbt · duckdb · pg</text>
+    <rect x="150" y="124" width="476" height="20" rx="3" fill="#161E2E"/>
+    <g clip-path="url(#b2)">
+      <rect x="150" y="124" width="476" height="20" rx="3" fill="#0E3A45"/>
+      <rect x="150" y="124" width="476" height="20" rx="3" fill="url(#g2)"/>
+    </g>
+    <rect x="150" y="124" width="476" height="20" rx="3" fill="none" stroke="#22D3EE" stroke-width="1" opacity="0.4"/>
+    <text x="700" y="138" font-size="13" fill="#67E8F9" text-anchor="end">65%</text>
+
+    <!-- ROW 3 applied-ai -->
+    <text x="24" y="192" font-size="14" fill="#C4B5FD">applied-ai</text>
+    <text x="24" y="208" font-size="10" fill="#475569">rag · qdrant · llm</text>
+    <rect x="150" y="178" width="476" height="20" rx="3" fill="#161E2E"/>
+    <g clip-path="url(#b3)">
+      <rect x="150" y="178" width="476" height="20" rx="3" fill="#2A1E54"/>
+      <rect x="150" y="178" width="476" height="20" rx="3" fill="url(#g1)"/>
+    </g>
+    <rect x="150" y="178" width="476" height="20" rx="3" fill="none" stroke="#7C3AED" stroke-width="1" opacity="0.4"/>
+    <text x="700" y="192" font-size="13" fill="#A78BFA" text-anchor="end">55%</text>
+
+    <!-- ROW 4 automation -->
+    <text x="24" y="246" font-size="14" fill="#67E8F9">automation</text>
+    <text x="24" y="262" font-size="10" fill="#475569">python · bash · ps</text>
+    <rect x="150" y="232" width="476" height="20" rx="3" fill="#161E2E"/>
+    <g clip-path="url(#b4)">
+      <rect x="150" y="232" width="476" height="20" rx="3" fill="#0E3A45"/>
+      <rect x="150" y="232" width="476" height="20" rx="3" fill="url(#g2)"/>
+    </g>
+    <rect x="150" y="232" width="476" height="20" rx="3" fill="none" stroke="#22D3EE" stroke-width="1" opacity="0.4"/>
+    <text x="700" y="246" font-size="13" fill="#67E8F9" text-anchor="end">60%</text>
+
+    <!-- footer readout -->
+    <text x="24" y="296" font-size="11" fill="#475569">uptime: shipping since 2021   ·   threads: 4 pillars   ·   status: </text>
+    <text x="430" y="296" font-size="11" fill="#22D3EE">operational</text>
+    <circle cx="498" cy="292" r="3" fill="#22D3EE"><animate attributeName="opacity" values="1;0.3;1" dur="1.4s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5B21B6"/><stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0E7490"/><stop offset="1" stop-color="#67E8F9"/>
+    </linearGradient>
+  </defs>
+</svg>
