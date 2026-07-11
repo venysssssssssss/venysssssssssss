@@ -1,7 +1,8 @@
 name: profile-telemetry
 
-# Self-generating profile asset: recomputes assets/status.svg from live
-# GitHub data on a schedule and on demand, then commits if it changed.
+# Self-generating profile assets: recomputes assets/status.svg and
+# assets/pipeline-art.svg from live GitHub data on a schedule and on
+# demand, then commits if anything changed.
 
 on:
   schedule:
@@ -11,6 +12,7 @@ on:
     branches: [main]
     paths:
       - "scripts/generate_status.py"
+      - "scripts/generate_pipeline_art.py"
       - ".github/workflows/status.yml"
 
 permissions:
@@ -37,12 +39,19 @@ jobs:
           STATUS_OUT: assets/status.svg
         run: python scripts/generate_status.py
 
+      - name: Render pipeline-art.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: ${{ github.repository_owner }}
+          ART_OUT: assets/pipeline-art.svg
+        run: python scripts/generate_pipeline_art.py
+
       - name: Commit if changed
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [[ -n "$(git status --porcelain assets/status.svg)" ]]; then
-            git add assets/status.svg
+          if [[ -n "$(git status --porcelain assets/status.svg assets/pipeline-art.svg)" ]]; then
+            git add assets/status.svg assets/pipeline-art.svg
             git commit -m "chore: refresh profile telemetry [skip ci]"
             git push
           else

@@ -31,6 +31,14 @@
 > I turn fragile manual workflows into **auditable, observable software**.
 > APIs with strict contracts. Pipelines with lineage. Automation with receipts.
 
+<div align="center">
+
+<img src="./assets/pipeline-art.svg" width="100%" alt="generative pipeline art — rendered daily from live commit activity"/>
+
+<sub>↳ <b>generative &amp; live</b> — each source node is one of my repos; each pulse is real commit activity from the last 30 days, colored by language. <a href="./scripts/generate_pipeline_art.py">A GitHub Action re-renders it daily</a>: seeded by day + data, reproducible, receipt embedded in the SVG. No two days look the same.</sub>
+
+</div>
+
 ## What I build
 
 - **Backend systems** — resilient APIs, async workers, service-layer separation, strict validation contracts · `FastAPI` `Rust` `Celery` `Redis`
