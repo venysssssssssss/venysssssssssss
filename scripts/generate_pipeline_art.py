@@ -214,7 +214,7 @@ def render(sources, demo_mode=False):
             f'<tspan fill="#475569">└─ inputs ▸ </tspan>'
             f'<tspan fill="#94A3B8">{n} repos · {mode}</tspan>'
             f'<tspan fill="#475569"> · seed </tspan><tspan fill="#67E8F9">{seed}</tspan>'
-            f'<tspan fill="#475569"> · {today} · deterministic — same day + same data = same art</tspan></text>')
+            f'<tspan fill="#475569"> · {today} · deterministic</tspan></text>')
 
     receipt = json.dumps({"date": today, "seed": seed, "user": USER,
                           "window_days": WINDOW_DAYS, "inputs": inputs,
