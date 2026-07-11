@@ -2,10 +2,6 @@
 
 <img src="./assets/terminal.svg" width="92%" alt="venys@tekhnai terminal session"/>
 
-</div>
-
-<div align="center">
-
 # Vinícius Reis
 
 <p>
@@ -24,8 +20,6 @@
   <a href="mailto:viniciussport2004@gmail.com">
     <img src="https://img.shields.io/badge/Email-0D1117?style=flat-square&logo=gmail&logoColor=22D3EE"/>
   </a>
-  &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=venysssssssssss&style=flat-square&color=7C3AED&labelColor=0D1117&label=visitors"/>
 </p>
 
 <sub><i>clarity > cleverness &nbsp;·&nbsp; architecture > patchwork &nbsp;·&nbsp; systems that outlast the sprint</i></sub>
@@ -34,145 +28,33 @@
 
 <br/>
 
-> I turn fragile manual workflows into **auditable, observable software**.  
+> I turn fragile manual workflows into **auditable, observable software**.
 > APIs with strict contracts. Pipelines with lineage. Automation with receipts.
 
-## Surface
+## What I build
 
-Four load-bearing pillars — operational scopes where I take full-stack ownership.
+- **Backend systems** — resilient APIs, async workers, service-layer separation, strict validation contracts · `FastAPI` `Rust` `Celery` `Redis`
+- **Data infrastructure** — raw → trusted pipelines, schema enforcement, incremental ingestion, quality gates · `dbt` `DuckDB` `PostgreSQL`
+- **Applied AI & search** — RAG architectures, document pipelines, vector search, local LLM orchestration · `Qdrant`
+- **Operational automation** — SAP, SFTP and ClickUp integrations, extraction engines, scheduled jobs · `Bash` `PowerShell` `Docker` `Grafana`
 
-**`Backend Systems`** — Production interfaces built for operators, not demos. Resilient APIs, async task runners, service-layer separation, strict validation contracts. **FastAPI**, **Rust**.
+## Proof of work
 
-**`Data Infrastructure`** — Clean analytical pipelines from raw to decision-ready. SQL modeling, schema enforcement, incremental ingestion, quality gates. **dbt**, **DuckDB**, **PostgreSQL**.
-
-**`Applied AI & Search`** — Friction-free AI infrastructure: **RAG** architectures, document pipelines, vector search with **Qdrant**, local LLM orchestration.
-
-**`Operational Automation`** — Brittle routines replaced by auditable software. Extraction engines, SFTP ingestion, SAP/ClickUp/Grafana integrations, scheduled jobs via **Bash** and **PowerShell**.
-
-## Architecture
-
-<div align="center">
-<img src="./assets/pipeline.svg" width="100%" alt="data pipeline"/>
-</div>
-
-<details>
-<summary><b>↳ precise topology</b> &nbsp;<sub>(the wiring, expanded)</sub></summary>
-<br/>
-
-```mermaid
-%%{init: {'theme':'dark','themeVariables':{'fontFamily':'monospace','lineColor':'#475569','edgeLabelBackground':'#1E293B'}}}%%
-graph LR
-    A[Raw Ops] -->|ETL| B(Data Layer)
-    D[Documents] -->|embeddings| E(Vector Store)
-    B --> C{FastAPI Core}
-    E -->|RAG| C
-    C -->|workers| F[Batch Jobs]
-    C -->|events| G[Decision Output]
-
-    classDef source fill:#0F172A,stroke:#334155,color:#94A3B8
-    classDef layer fill:#1E293B,stroke:#7C3AED,color:#C4B5FD
-    classDef ai fill:#1E293B,stroke:#22D3EE,color:#67E8F9
-    classDef core fill:#1E293B,stroke:#7C3AED,stroke-width:2px,color:#C4B5FD
-    classDef output fill:#4C1D95,stroke:#7C3AED,color:#EDE9FE
-
-    class A,D source
-    class B layer
-    class E ai
-    class C core
-    class F,G output
-```
-
-</details>
-
-## Stack
-
-<div align="center">
-<img src="./assets/stack-monitor.svg" width="100%" alt="stack monitor"/>
-</div>
-
-<details>
-<summary><b>↳ full toolchain</b> &nbsp;<sub>(every package, enumerated)</sub></summary>
-<br/>
-<div align="center">
-
-<sub><b>L A N G U A G E S</b></sub>
-<br/>
-<img src="https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=7C3AED"/>
-&nbsp;
-<img src="https://img.shields.io/badge/Rust-0D1117?style=flat-square&logo=rust&logoColor=7C3AED"/>
-&nbsp;
-<img src="https://img.shields.io/badge/SQL-0D1117?style=flat-square&logo=postgresql&logoColor=7C3AED"/>
-&nbsp;
-<img src="https://img.shields.io/badge/Bash-0D1117?style=flat-square&logo=gnubash&logoColor=7C3AED"/>
-&nbsp;
-<img src="https://img.shields.io/badge/PowerShell-0D1117?style=flat-square&logo=powershell&logoColor=7C3AED"/>
-
-<br/><br/>
-
-<sub><b>D A T A</b></sub>
-<br/>
-<img src="https://img.shields.io/badge/PostgreSQL-0D1117?style=flat-square&logo=postgresql&logoColor=22D3EE"/>
-&nbsp;
-<img src="https://img.shields.io/badge/DuckDB-0D1117?style=flat-square&logo=duckdb&logoColor=22D3EE"/>
-&nbsp;
-<img src="https://img.shields.io/badge/dbt-0D1117?style=flat-square&logo=dbt&logoColor=22D3EE"/>
-&nbsp;
-<img src="https://img.shields.io/badge/Qdrant-0D1117?style=flat-square&logo=qdrant&logoColor=22D3EE"/>
-
-<br/><br/>
-
-<sub><b>B A C K E N D</b></sub>
-<br/>
-<img src="https://img.shields.io/badge/FastAPI-0D1117?style=flat-square&logo=fastapi&logoColor=7C3AED"/>
-&nbsp;
-<img src="https://img.shields.io/badge/Celery-0D1117?style=flat-square&logo=celery&logoColor=7C3AED"/>
-&nbsp;
-<img src="https://img.shields.io/badge/Redis-0D1117?style=flat-square&logo=redis&logoColor=7C3AED"/>
-&nbsp;
-<img src="https://img.shields.io/badge/Docker-0D1117?style=flat-square&logo=docker&logoColor=7C3AED"/>
-
-<br/><br/>
-
-<sub><b>T O O L I N G</b></sub>
-<br/>
-<img src="https://img.shields.io/badge/SAP_GUI-0D1117?style=flat-square&logo=sap&logoColor=22D3EE"/>
-&nbsp;
-<img src="https://img.shields.io/badge/SFTP_/_FTP-0D1117?style=flat-square&logoColor=22D3EE"/>
-&nbsp;
-<img src="https://img.shields.io/badge/Grafana-0D1117?style=flat-square&logo=grafana&logoColor=22D3EE"/>
-&nbsp;
-<img src="https://img.shields.io/badge/ClickUp-0D1117?style=flat-square&logo=clickup&logoColor=22D3EE"/>
-
-</div>
-</details>
+| Project | What it shows |
+|---|---|
+| [**schema-guard**](https://github.com/venysssssssssss/schema-guard) | Versioned schema registry + validation engine — a gatekeeper that stops dirty data before it reaches the lake |
+| [**raw-to-trusted-pncp**](https://github.com/venysssssssssss/raw-to-trusted-pncp) | RAW → TRUSTED pipeline for public procurement data: dedup, normalization, row-level lineage · DuckDB, FastAPI, React |
+| [**data-intake-selic-bc**](https://github.com/venysssssssssss/data-intake-selic-bc) | Real-time ingestion + observability for Central Bank Selic series: gap detection, sequence breaks, quality checks |
+| [**mini-software-house**](https://github.com/venysssssssssss/mini-software-house) | Autonomous multi-agent dev pipeline (plan → code → test → docs) tuned for a 4 GB consumer GPU |
+| [**synapse-like**](https://github.com/venysssssssssss/synapse-like) | Open-source Razer Synapse for Linux: input daemon, per-app profile switching, timeline macro editor |
 
 ## Signal
 
-<sub>This panel is <b>self-generated</b> — a GitHub Action recomputes it daily from my live repo data. The profile is itself a pipeline.</sub>
+<sub>Self-generated — a GitHub Action recomputes this panel daily from live repo data. The profile is itself a pipeline.</sub>
 
 <div align="center">
 <img src="./assets/status.svg" width="100%" alt="live profile telemetry"/>
 </div>
-
-<details>
-<summary><b>$ neofetch</b> &nbsp;<sub>(system specs)</sub></summary>
-
-```
-        ⬡ ⬡ ⬡           venys@tekhnai
-      ⬡       ⬡         ──────────────────────────────────────
-     ⬡  ▟█▙   ⬡         role    ▸  CEO / CTO · backend & data systems
-     ⬡  ▜█▛   ⬡         os      ▸  Kali Linux · WSL2 · Windows
-      ⬡       ⬡         shell   ▸  zsh · tmux · nvim
-        ⬡ ⬡ ⬡           lang    ▸  Python · Rust · SQL
-                        stack   ▸  FastAPI · dbt · DuckDB · Qdrant
-                        infra   ▸  Docker · Redis · Celery · Grafana
-                        focus   ▸  raw ops ─→ decision systems
-                        uptime  ▸  shipping since 2021
-                        ───────────────────────────────────────
-                        ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  violet · cyan
-```
-
-</details>
 
 <br/>
 
