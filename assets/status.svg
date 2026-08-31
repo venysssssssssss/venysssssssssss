@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 370" role="img" aria-label="Live profile status">
-  <defs><clipPath id="bar0"><rect x="250" y="138" width="0" height="14"><animate attributeName="width" from="0" to="135" begin="0.50s" dur="0.9s" fill="freeze"/></rect></clipPath><clipPath id="bar1"><rect x="250" y="168" width="0" height="14"><animate attributeName="width" from="0" to="80" begin="0.68s" dur="0.9s" fill="freeze"/></rect></clipPath><clipPath id="bar2"><rect x="250" y="198" width="0" height="14"><animate attributeName="width" from="0" to="18" begin="0.86s" dur="0.9s" fill="freeze"/></rect></clipPath><clipPath id="bar3"><rect x="250" y="228" width="0" height="14"><animate attributeName="width" from="0" to="18" begin="1.04s" dur="0.9s" fill="freeze"/></rect></clipPath><clipPath id="bar4"><rect x="250" y="258" width="0" height="14"><animate attributeName="width" from="0" to="11" begin="1.22s" dur="0.9s" fill="freeze"/></rect></clipPath></defs>
+  <defs><clipPath id="bar0"><rect x="250" y="138" width="0" height="14"><animate attributeName="width" from="0" to="134" begin="0.50s" dur="0.9s" fill="freeze"/></rect></clipPath><clipPath id="bar1"><rect x="250" y="168" width="0" height="14"><animate attributeName="width" from="0" to="80" begin="0.68s" dur="0.9s" fill="freeze"/></rect></clipPath><clipPath id="bar2"><rect x="250" y="198" width="0" height="14"><animate attributeName="width" from="0" to="22" begin="0.86s" dur="0.9s" fill="freeze"/></rect></clipPath><clipPath id="bar3"><rect x="250" y="228" width="0" height="14"><animate attributeName="width" from="0" to="18" begin="1.04s" dur="0.9s" fill="freeze"/></rect></clipPath><clipPath id="bar4"><rect x="250" y="258" width="0" height="14"><animate attributeName="width" from="0" to="11" begin="1.22s" dur="0.9s" fill="freeze"/></rect></clipPath></defs>
   <rect x="1" y="1" width="758" height="368" rx="12" fill="#0D1117" stroke="#1E293B"/>
   <rect x="1" y="1" width="758" height="34" rx="12" fill="#0F172A"/>
   <rect x="1" y="22" width="758" height="13" fill="#0F172A"/>
@@ -14,7 +14,7 @@
     <circle cx="34" cy="96" r="5" fill="#22D3EE"><animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/></circle>
     <text x="48" y="101" font-size="14"><tspan fill="#C4B5FD">profile.service</tspan><tspan fill="#64748B"> — </tspan><tspan fill="#67E8F9">active (running)</tspan></text>
 
-    <text x="70" y="130" font-size="13"><tspan fill="#475569">├─ </tspan><tspan fill="#94A3B8">repos     </tspan><tspan fill="#475569">▸ </tspan><tspan fill="#E2E8F0">99 public</tspan></text>
+    <text x="70" y="130" font-size="13"><tspan fill="#475569">├─ </tspan><tspan fill="#94A3B8">repos     </tspan><tspan fill="#475569">▸ </tspan><tspan fill="#E2E8F0">100 public</tspan></text>
     <text x="70" y="132" font-size="13" opacity="0"> </text>
 
     <text x="70" y="150" font-size="13" fill="#475569">│</text>
@@ -31,7 +31,7 @@
     <text x="92" y="210" font-size="13" fill="#94A3B8">typescript</text>
     <rect x="250" y="198" width="300" height="14" rx="3" fill="#161E2E"/>
     <g clip-path="url(#bar2)"><rect x="250" y="198" width="300" height="14" rx="3" fill="#A78BFA"/></g>
-    <text x="566" y="210" font-size="12" fill="#A78BFA">6%</text>
+    <text x="566" y="210" font-size="12" fill="#A78BFA">7%</text>
     <text x="70" y="240" font-size="13" fill="#475569">│</text>
     <text x="92" y="240" font-size="13" fill="#94A3B8">javascript</text>
     <rect x="250" y="228" width="300" height="14" rx="3" fill="#161E2E"/>
@@ -42,7 +42,7 @@
     <rect x="250" y="258" width="300" height="14" rx="3" fill="#161E2E"/>
     <g clip-path="url(#bar4)"><rect x="250" y="258" width="300" height="14" rx="3" fill="#A78BFA"/></g>
     <text x="566" y="270" font-size="12" fill="#A78BFA">4%</text>
-    <text x="70" y="300" font-size="13"><tspan fill="#475569">├─ </tspan><tspan fill="#94A3B8">last push </tspan><tspan fill="#475569">▸ </tspan><tspan fill="#67E8F9">2026-08-30</tspan><tspan fill="#475569"> · </tspan><tspan fill="#94A3B8">venysssssssssss</tspan></text>
-    <text x="70" y="326" font-size="13"><tspan fill="#475569">└─ </tspan><tspan fill="#94A3B8">synced    </tspan><tspan fill="#475569">▸ </tspan><tspan fill="#64748B">2026-08-30 10:53 UTC · self-generated via github actions</tspan></text>
+    <text x="70" y="300" font-size="13"><tspan fill="#475569">├─ </tspan><tspan fill="#94A3B8">last push </tspan><tspan fill="#475569">▸ </tspan><tspan fill="#67E8F9">2026-08-31</tspan><tspan fill="#475569"> · </tspan><tspan fill="#94A3B8">venysssssssssss</tspan></text>
+    <text x="70" y="326" font-size="13"><tspan fill="#475569">└─ </tspan><tspan fill="#94A3B8">synced    </tspan><tspan fill="#475569">▸ </tspan><tspan fill="#64748B">2026-08-31 12:06 UTC · self-generated via github actions</tspan></text>
   </g>
 </svg>
