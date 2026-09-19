@@ -28,12 +28,12 @@
     <g clip-path="url(#bar1)"><rect x="250" y="168" width="300" height="14" rx="3" fill="#67E8F9"/></g>
     <text x="566" y="180" font-size="12" fill="#67E8F9">26%</text>
     <text x="70" y="210" font-size="13" fill="#475569">│</text>
-    <text x="92" y="210" font-size="13" fill="#94A3B8">javascript</text>
+    <text x="92" y="210" font-size="13" fill="#94A3B8">typescript</text>
     <rect x="250" y="198" width="300" height="14" rx="3" fill="#161E2E"/>
     <g clip-path="url(#bar2)"><rect x="250" y="198" width="300" height="14" rx="3" fill="#A78BFA"/></g>
     <text x="566" y="210" font-size="12" fill="#A78BFA">7%</text>
     <text x="70" y="240" font-size="13" fill="#475569">│</text>
-    <text x="92" y="240" font-size="13" fill="#94A3B8">typescript</text>
+    <text x="92" y="240" font-size="13" fill="#94A3B8">javascript</text>
     <rect x="250" y="228" width="300" height="14" rx="3" fill="#161E2E"/>
     <g clip-path="url(#bar3)"><rect x="250" y="228" width="300" height="14" rx="3" fill="#67E8F9"/></g>
     <text x="566" y="240" font-size="12" fill="#67E8F9">7%</text>
@@ -42,7 +42,7 @@
     <rect x="250" y="258" width="300" height="14" rx="3" fill="#161E2E"/>
     <g clip-path="url(#bar4)"><rect x="250" y="258" width="300" height="14" rx="3" fill="#A78BFA"/></g>
     <text x="566" y="270" font-size="12" fill="#A78BFA">4%</text>
-    <text x="70" y="300" font-size="13"><tspan fill="#475569">├─ </tspan><tspan fill="#94A3B8">last push </tspan><tspan fill="#475569">▸ </tspan><tspan fill="#67E8F9">2026-09-18</tspan><tspan fill="#475569"> · </tspan><tspan fill="#94A3B8">venysssssssssss</tspan></text>
-    <text x="70" y="326" font-size="13"><tspan fill="#475569">└─ </tspan><tspan fill="#94A3B8">synced    </tspan><tspan fill="#475569">▸ </tspan><tspan fill="#64748B">2026-09-18 10:13 UTC · self-generated via github actions</tspan></text>
+    <text x="70" y="300" font-size="13"><tspan fill="#475569">├─ </tspan><tspan fill="#94A3B8">last push </tspan><tspan fill="#475569">▸ </tspan><tspan fill="#67E8F9">2026-09-19</tspan><tspan fill="#475569"> · </tspan><tspan fill="#94A3B8">L9weakness</tspan></text>
+    <text x="70" y="326" font-size="13"><tspan fill="#475569">└─ </tspan><tspan fill="#94A3B8">synced    </tspan><tspan fill="#475569">▸ </tspan><tspan fill="#64748B">2026-09-19 09:55 UTC · self-generated via github actions</tspan></text>
   </g>
 </svg>
